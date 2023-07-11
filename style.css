@@ -1,0 +1,207 @@
+/* ---- overall styling --- */
+html{
+   overflow-x: hidden; 
+}
+body{
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin:0;
+}
+.container {
+    max-width:1140px;
+    margin: 0 auto;
+  }
+  h1, h2, h3 {
+    color: #272727;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.2em;
+    margin: 0;
+  }
+  p{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0;
+  }
+  .btnPrimary{
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 40px;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #ffffff;
+    border: none;
+  }
+a{
+text-decoration: none;
+}
+.btnPrimary a{
+    color:#ffffff;
+}
+
+/* ---- header styling --- */
+.header{
+    background-color: rgba(229, 84, 115, 0.10);
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items:left;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding:50px 0px 0px 0px;
+    vertical-align:middle;
+  }
+  .banner h1{
+    color: #272727;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.2em;
+    margin: 0;
+  }
+  .bannercontent p{
+   margin: 35px 0px;
+  }
+  .bannercontent {
+    padding: 120px 50px 40px 0px;
+  }
+  .bannerimage{
+    width: 40%;
+  }
+  .bannerimg{
+    margin-bottom:-3px;
+  }
+
+/* ---- main body styling --- */
+.featured{
+    padding:80px 0px;
+    text-align: center;
+}
+.featuredmain{
+    text-align: center;
+    max-width:600px;
+    margin: 0 auto 50px auto;
+}
+.featuredmain h2{
+    font-size: 40px;
+    margin-bottom:10px;
+}
+.tree{
+    display: flex;
+    justify-content: space-between;
+    align-items:center; 
+    max-width: 1140px;
+    margin: 0 auto;
+    gap: 25px;
+}
+.pink {
+    width:100%;
+    padding: 0;
+    margin: 0;
+}
+.pink h4 a{
+    text-decoration: underline;
+    color: #272727;
+    font-size: 23px;
+}
+.pinkbgone{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 68px 0px 0px 0px;
+}
+.pinkbgtwo{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 80px 0px 80px 0px;
+  }
+  .pinkbgthree{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 35px 0px 0px 0px;
+  }
+  .pinkimg{
+    width:250px;
+    margin-bottom:-3px;
+  }
+  .stat{
+    display: flex;
+    justify-content: space-between;
+    align-items:center; 
+    max-width: 1140px;
+    margin: 60px auto 0 auto;
+    gap: 10px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+.stat p{
+    color: #272727;
+    margin-top:10px;
+}
+.collect{
+    padding:50px;
+}
+.local{
+    padding:50px;
+}
+.support{
+    padding:5cqmin;
+}
+.deal{
+    background: rgba(229, 84, 115, 0.05);
+    padding:80px 0px;
+    text-align: center;
+}
+.dealcontent{
+    display: flex;
+    justify-content: space-between;
+    align-items:center; 
+    max-width: 1140px;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+.dealcontent h2{
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+.dealcontent p{
+    margin:25px 0 30px 0;
+}
+.dealtext{
+    padding:0px 80px;
+}
+
+/* ---- footer styling --- */
+footer{
+    background: #111010;
+    padding: 100px 0px;
+    vertical-align: middle;
+    text-align: center;
+  }
+.blackfooter{
+    max-width:500px;
+    margin: 0 auto;
+
+  }
+.blackfooter h2{
+    font-size: 40px;
+    margin:0px;
+}
+.blackfooter p{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    line-height: 30px;
+    margin:20px 0;
+}
+.copyright{
+    margin:0;
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+}
