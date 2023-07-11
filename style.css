@@ -11,7 +11,7 @@ body{
     max-width:1140px;
     margin: 0 auto;
   }
-  h1, h2, h3 {
+h1, h2, h3 {
     color: #272727;
     font-family: 'Lato', sans-serif;
     font-style: normal;
@@ -19,7 +19,7 @@ body{
     line-height: 1.2em;
     margin: 0;
   }
-  p{
+p{
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
     font-size: 18px;
@@ -28,7 +28,7 @@ body{
     line-height: 30px;
     margin: 0;
   }
-  .btnPrimary{
+.btnPrimary{
     border-radius: 8px;
     background: #E55473;
     padding: 20px 40px;
@@ -176,6 +176,103 @@ text-decoration: none;
 }
 .dealtext{
     padding:0px 80px;
+}
+
+.instagram{
+  padding:80px 0px 90px 0;
+  text-align: center;
+}
+.instamain{
+  text-align: center;
+  max-width:600px;
+  margin: 0 auto 40px auto;
+}
+.instamain h2{
+  font-size: 40px;
+  margin-bottom:10px;
+}
+.instagallery{
+  display:flex;
+  justify-content: space-around;
+  align-items:center; 
+  width: 1140px;
+  margin: 0 auto;
+  gap:10px;
+}
+.insta img{
+  max-width:275px;
+}
+.category{
+  background-color: rgba(229, 84, 115, 0.10);
+  padding:80px 0px;
+  text-align:left;
+}
+.categories{
+  display: flex;
+  justify-content: space-between;
+  align-items:left; 
+  max-width: 1140px;
+  margin: 0 auto;
+  vertical-align: middle;
+  background:#fafafa;
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.1);
+}
+.categorytext {
+  padding: 60px 0px 50px 80px;
+  vertical-align: middle;
+}
+.categorytext h2{
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+.categorytext ul li{
+  font-size: 20px;
+  margin: 5px 0px;
+}
+.categorytext ul{
+  margin: 20px 0px 30px 0px;
+}
+.categoryimage{
+  margin-bottom: -3px;
+}
+.latestdeals{
+  width:1140px;
+  margin: 60px auto 0 auto;
+  background-image: url("images/Rectangle9.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+}
+.getdeals{
+ padding: 110px 200px;
+}
+.latestdeals h2{
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+.latestdeals p{
+  margin-bottom:30px;
+}
+input[type="submit"]{
+  border-radius: 8px;
+  background: #E55473;
+  padding:15px 35px;
+  font-size:19px;
+  font-style: normal;
+  line-height: normal;
+  color: #ffffff;
+  border: none;
+}
+input[type="email"]{
+  background: #ffffff;
+  padding: 15px 20px;
+  border:2px solid #fff;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 60%;
+  margin-right:10px;
 }
 
 /* ---- footer styling --- */
